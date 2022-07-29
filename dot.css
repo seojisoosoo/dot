@@ -1,0 +1,26 @@
+body{
+    background-color: #ECE7E1;
+}
+.dot{
+    background-color: #D9D9D9;
+    border-radius: 100%;
+    border:1px #D9D9D9;
+    width:1vh;
+    height: 1vh;
+    position: relative; 
+    z-index: 2;
+}
+.img{
+    content: url(img/cupcake.jpeg);
+    position: absolute; 
+    z-index: 1;
+    width: 50vh;
+    border-radius: 2vh;
+    border: solid 1px black;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top:10vh;
+}
