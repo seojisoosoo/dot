@@ -2,16 +2,17 @@ body{
     background-color: #ECE7E1;
 }
 .dot{
-    background-color: #D9D9D9;
+    background-color: rgb(161, 161, 161);
+    border:1px rgb(161, 161, 161);
     border-radius: 100%;
-    border:1px #D9D9D9;
     width:1vh;
     height: 1vh;
     position: relative; 
     z-index: 2;
+    /* margin: 0.1vh; */
 }
 .img{
-    content: url(img/cupcake.jpeg);
+    content: url(img/cherry.png);
     position: absolute; 
     z-index: 1;
     width: 50vh;
@@ -20,7 +21,54 @@ body{
 }
 .card{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
     margin-top:10vh;
+    margin-left:60vh;
+}
+.dots{
+    display: flex;
+    margin-left: 17.3vh;
+    margin-top: 19vh;
+}
+#dot1{
+    margin-top: 5.5vh;
+}
+#dot2{
+    margin-top: 2vh;
+    margin-left: -0.5vh;
+}
+#dot3{
+}
+#dot4{
+    margin-top: 1vh;
+    margin-left:-0.2vh;
+}
+#dot5{
+    margin-top:4.5vh;
+    margin-left:-1.3vh;
+}
+.num{ 
+    position: relative; 
+    z-index: 2;
+}
+
+#num1{
+
+}
+#num2{
+margin-top: -1.3vh;
+margin-left: -0.3vh;
+}
+#num3{
+margin-top:-3.5vh;
+}
+#num4{
+    margin-top:-2.5vh;
+    margin-left:2vh;
+
+}
+#num5{
+    margin-top: 1.7vh;
+    margin-left: 1vh;
 }
