@@ -21,16 +21,23 @@ body{
 }
 .card{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
-    margin-top:10vh;
-    margin-left:60vh;
+    /* margin-top:10vh; */
+    /* margin-left:60vh; */
 }
 .dots{
     display: flex;
-    margin-left: 17.3vh;
-    margin-top: 19vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2.6vh;
+    margin-top: 17.3vh;
 }
+.num{ 
+    position: relative; 
+    z-index: 2;
+}
+/* 
 #dot1{
     margin-top: 5.5vh;
 }
@@ -47,10 +54,6 @@ body{
 #dot5{
     margin-top:4.5vh;
     margin-left:-1.3vh;
-}
-.num{ 
-    position: relative; 
-    z-index: 2;
 }
 
 #num1{
@@ -71,4 +74,11 @@ margin-top:-3.5vh;
 #num5{
     margin-top: 1.7vh;
     margin-left: 1vh;
+} */
+
+#dot3{
+    margin-top: 19vh;
+}
+#dot5{
+    /* margin-top:20vh; */
 }
