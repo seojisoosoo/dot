@@ -20,9 +20,13 @@ p{
     content: url(img/cherry.png);
     position: absolute; 
     z-index: 1;
-    width: 50vh;
+    /* width: 50vh; */
+    width: 385px;
+    
     border-radius: 2vh;
     border: solid 1px black;
+    align-items: center;
+
 }
 .card{
     display: flex;
@@ -38,7 +42,9 @@ p{
     justify-content: center;
     align-items: center;
     margin-left: -2.6vh;
-    margin-top: 16vh;
+    /* margin-top: 16vh; */
+    margin-top: 122px;
+
     flex-direction: column;
     width:15vh;
 }
@@ -73,7 +79,6 @@ p{
 #num5{
     margin-left: 6vh;
     margin-top: -1vh;
-
 }
 #num4{
     margin-top: -1vh;
