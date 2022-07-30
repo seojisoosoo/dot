@@ -88,6 +88,7 @@ p{
 } */
 #dot1{
     margin-right:17px;
+    margin-left: 5px;
 }
 #dot5{
     margin-left:56px;
@@ -112,4 +113,11 @@ p{
 }
 #num4{
     margin-top: -7px;
+}
+
+@media (min-width:1450px) {
+    #dot1{
+        margin-left: 15px;
+    }
+    
 }
