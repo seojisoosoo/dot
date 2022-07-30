@@ -121,3 +121,9 @@ p{
     }
     
 }
+@media (min-width:2000px) {
+    #dot1{
+        margin-left: 15px;
+    }
+    
+}
