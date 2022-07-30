@@ -1,6 +1,11 @@
 body{
     background-color: #ECE7E1;
 }
+p{
+    margin: 0px;
+    padding: 0px;
+
+}
 .dot{
     background-color: rgb(161, 161, 161);
     border:1px rgb(161, 161, 161);
@@ -25,60 +30,51 @@ body{
     /* align-items: center; */
     /* margin-top:10vh; */
     /* margin-left:60vh; */
+    /* flex-wrap: nowrap;
+    flex-direction: row; */
 }
 .dots{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -2.6vh;
-    margin-top: 17.3vh;
+    margin-top: 16vh;
+    flex-direction: column;
+    width:15vh;
 }
 .num{ 
     position: relative; 
     z-index: 2;
 }
-/* 
+.column{
+    display: flex;
+}
 #dot1{
-    margin-top: 5.5vh;
+    margin-right:2vh;
+    margin-left: 0.5vh;
+}
+#dot5{
+    margin-left:7.5vh;
+    margin-top: -1vh;
 }
 #dot2{
-    margin-top: 2vh;
-    margin-left: -0.5vh;
-}
-#dot3{
+    margin-right: 3.3vh;
 }
 #dot4{
-    margin-top: 1vh;
-    margin-left:-0.2vh;
+    margin-left: 3.5vh;
+    margin-top: -1vh;
 }
-#dot5{
-    margin-top:4.5vh;
-    margin-left:-1.3vh;
+#dot3{
+    margin: 0vh 3.5vh;
 }
-
 #num1{
-
-}
-#num2{
-margin-top: -1.3vh;
-margin-left: -0.3vh;
-}
-#num3{
-margin-top:-3.5vh;
-}
-#num4{
-    margin-top:-2.5vh;
-    margin-left:2vh;
-
+    margin-right: 6vh;
 }
 #num5{
-    margin-top: 1.7vh;
-    margin-left: 1vh;
-} */
+    margin-left: 6vh;
+    margin-top: -1vh;
 
-#dot3{
-    margin-top: 19vh;
 }
-#dot5{
-    /* margin-top:20vh; */
+#num4{
+    margin-top: -1vh;
 }
