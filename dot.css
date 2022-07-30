@@ -10,8 +10,11 @@ p{
     background-color: rgb(161, 161, 161);
     border:1px rgb(161, 161, 161);
     border-radius: 100%;
-    width:1vh;
-    height: 1vh;
+    /* width:1vh;
+    height: 1vh; */
+    width:7px;
+    height: 7px;
+
     position: relative; 
     z-index: 2;
     /* margin: 0.1vh; */
@@ -55,7 +58,7 @@ p{
 .column{
     display: flex;
 }
-#dot1{
+/* #dot1{
     margin-right:2vh;
     margin-left: 0.5vh;
 }
@@ -82,4 +85,31 @@ p{
 }
 #num4{
     margin-top: -1vh;
+} */
+#dot1{
+    margin-right:17px;
+}
+#dot5{
+    margin-left:56px;
+    margin-top: -7px;
+}
+#dot2{
+    margin-right: 25px;
+}
+#dot4{
+    margin-left: 25px;
+    margin-top: -7px;
+}
+#dot3{
+    margin: 0px 25px;
+}
+#num1{
+    margin-right: 45px;
+}
+#num5{
+    margin-left: 45px;
+    margin-top: -7px;
+}
+#num4{
+    margin-top: -7px;
 }
