@@ -191,16 +191,17 @@ canvas{
     grid-template-columns: 4fr 6fr;
 } */
 
-@media (min-width:1450px) {
+/* 1440px */
+@media (min-width:1550px) {
     #dot1{
         margin-left: 10px;
     }
     .dots{
-        margin-top: 117px;
+        margin-top: 105px;
         margin-right: 5px;
     }
     .canvases{
-        margin-top: 137px;
+        margin-top: 135px;
         margin-right: 2px;
     }
 
@@ -225,8 +226,8 @@ canvas{
     
     
 }
-
-@media (min-width:1590px) {
+/* 1600px */
+@media (min-width:1650px) {
     #dot1{
         margin-left: 10px;
     }
