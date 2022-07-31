@@ -25,11 +25,11 @@ function click2() {
     const canvas = document.querySelector("#onetwo");
     var context = canvas.getContext("2d");
     context.strokeStyle = "black";
-    context.lineWidth = 3;
+    context.lineWidth = 5;
 
     context.beginPath();
-    context.moveTo(20, 100);
-    context.lineTo(270, 115);
+    context.moveTo(-50, -50);
+    context.lineTo(50, 50);
     context.stroke();
   } else {
     //다음페이지 나오게 -> html에 연결해두고 display:none해놨다가 display:block으로 변경하자
