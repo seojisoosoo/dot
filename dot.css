@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,700'); */
 body{
     background-color: #ECE7E1;
     
@@ -8,6 +7,32 @@ body{
 p{
     margin: 0px;
     padding: 0px;
+
+}
+canvas{
+    position: relative; 
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
+.canvases{
+    position: absolute;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    width: 385px;
+    height: 500px;
+}
+#onetwo{
+
+}
+#twothree{
+
+}
+#threefour{
+
+}
+#fourfive{
 
 }
 .dot{
@@ -53,6 +78,10 @@ p{
 
     flex-direction: column;
     width:15vh;
+    /* position: absolute;
+    z-index: 1; */
+    position: relative;
+    z-index: 3;
 }
 .num{ 
     position: relative; 
@@ -147,7 +176,8 @@ p{
         margin-left: 10px;
     }
     .dots{
-        margin-top: 113px;
+        margin-top: 105px;
+        margin-right: 5px;
     }
     body{
         background-color: #ECE7E1;
@@ -157,7 +187,7 @@ p{
     }
     
 }
-@media (min-width:2000px) {
+/* @media (min-width:2000px) {
     #dot1{
         margin-left: 15px;
     }
@@ -165,5 +195,4 @@ p{
         margin-top: 110px;
     }
 
-}
-/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100') */
+} */
