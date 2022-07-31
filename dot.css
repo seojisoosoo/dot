@@ -12,8 +12,8 @@ p{
     border-radius: 100%;
     /* width:1vh;
     height: 1vh; */
-    width:10px;
-    height: 10px;
+    width:11px;
+    height: 11px;
 
     position: relative; 
     z-index: 2;
@@ -25,7 +25,6 @@ p{
     z-index: 1;
     /* width: 50vh; */
     width: 385px;
-    
     border-radius: 2vh;
     border: solid 1px black;
     align-items: center;
