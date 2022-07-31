@@ -3,6 +3,9 @@ body{
     
     font-family:'Malgun Gothic';
     font-size:12pt;
+    margin: 0px;
+    padding: 0px;
+
 }
 p{
     margin: 0px;
@@ -227,7 +230,7 @@ canvas{
     
 }
 /* 1600px */
-/* @media (min-width:1650px) {
+@media (min-width:1590px) {
     #dot1{
         margin-left: 10px;
     }
@@ -259,4 +262,4 @@ canvas{
     }
     
     
-} */
+}
