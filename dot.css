@@ -212,7 +212,7 @@ canvas{
     }
     
 }
-/* @media (min-width:2000px) {
+@media (min-width:2000px) {
     #dot1{
         margin-left: 15px;
     }
@@ -220,4 +220,4 @@ canvas{
         margin-top: 110px;
     }
 
-} */
+}
