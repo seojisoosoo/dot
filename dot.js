@@ -20,6 +20,7 @@ function click2() {
   let newColor;
   if (currentColor != "black") {
     newColor = "black";
+    //선
   } else {
     //다음페이지 나오게 -> html에 연결해두고 display:none해놨다가 display:block으로 변경하자
   }
