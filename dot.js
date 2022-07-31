@@ -46,6 +46,16 @@ function click3() {
   let newColor;
   if (currentColor != "black") {
     newColor = "black";
+    //선
+    const canvas = document.querySelector("#twothree");
+    var context = canvas.getContext("2d");
+    context.strokeStyle = "black";
+    context.lineWidth = 3;
+
+    context.beginPath();
+    context.moveTo(0, 25);
+    context.lineTo(25, 3);
+    context.stroke();
   } else {
     //다음페이지 나오게 -> html에 연결해두고 display:none해놨다가 display:block으로 변경하자
   }
@@ -57,6 +67,16 @@ function click4() {
   let newColor;
   if (currentColor != "black") {
     newColor = "black";
+    //선
+    const canvas = document.querySelector("#threefour");
+    var context = canvas.getContext("2d");
+    context.strokeStyle = "black";
+    context.lineWidth = 3;
+
+    context.beginPath();
+    context.moveTo(0, 3);
+    context.lineTo(35, 18);
+    context.stroke();
   } else {
     //다음페이지 나오게 -> html에 연결해두고 display:none해놨다가 display:block으로 변경하자
   }
@@ -68,6 +88,16 @@ function click5() {
   let newColor;
   if (currentColor != "black") {
     newColor = "black";
+    //선
+    const canvas = document.querySelector("#fourfive");
+    var context = canvas.getContext("2d");
+    context.strokeStyle = "black";
+    context.lineWidth = 3;
+
+    context.beginPath();
+    context.moveTo(0, 0);
+    context.lineTo(10, 25);
+    context.stroke();
   } else {
     //다음페이지 나오게 -> html에 연결해두고 display:none해놨다가 display:block으로 변경하자
   }
