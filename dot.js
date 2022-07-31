@@ -32,7 +32,7 @@ function click2() {
     context.lineWidth = 3;
 
     context.beginPath();
-    context.moveTo(3, 35);
+    context.moveTo(4, 35);
     context.lineTo(9, 0);
     context.stroke();
   } else {
@@ -95,8 +95,8 @@ function click5() {
     context.lineWidth = 3;
 
     context.beginPath();
-    context.moveTo(0, 0);
-    context.lineTo(10, 25);
+    context.moveTo(3, 0);
+    context.lineTo(13, 25);
     context.stroke();
   } else {
     //다음페이지 나오게 -> html에 연결해두고 display:none해놨다가 display:block으로 변경하자
