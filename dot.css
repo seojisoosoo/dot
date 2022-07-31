@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,700');
 body{
     background-color: #ECE7E1;
-    font-family: Helvetica, Arial, sans-serif;}
+    font-family: 'Gothic+A1';
+}
 p{
     margin: 0px;
     padding: 0px;
 
 }
 .dot{
-    background-color: rgb(161, 161, 161);
-    border:1px rgb(161, 161, 161);
+    background-color: rgb(160, 160, 160);
     border-radius: 100%;
     /* width:1vh;
     height: 1vh; */
@@ -18,6 +19,7 @@ p{
     position: relative; 
     z-index: 2;
     /* margin: 0.1vh; */
+    cursor: pointer;
 }
 .img{
     content: url(img/cherry.png);
