@@ -1,6 +1,6 @@
 body{
     background-color: #ECE7E1;
-}
+    font-family: Helvetica, Arial, sans-serif;}
 p{
     margin: 0px;
     padding: 0px;
@@ -126,3 +126,4 @@ p{
     }
     
 }
+/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100') */
