@@ -88,11 +88,16 @@ p{
     margin-top: -1vh;
 } */
 #dot1{
+    /* margin-right:17px;
+    margin-left: 5px; */
     margin-right:17px;
     margin-left: 5px;
+
 }
 #dot5{
-    margin-left:56px;
+    /* margin-left:56px;
+    margin-top: -7px; */
+    margin-left:50px;
     margin-top: -7px;
 }
 #dot2{
@@ -106,11 +111,16 @@ p{
     margin: 0px 25px;
 }
 #num1{
-    margin-right: 45px;
+    /* margin-right: 45px; */
+    margin-right: 15px;
+    margin-top: 10px;
+
 }
 #num5{
-    margin-left: 45px;
-    margin-top: -7px;
+    /* margin-left: 45px;
+    margin-top: -7px; */
+    margin-left: 15px;
+
 }
 #num4{
     margin-top: -7px;
