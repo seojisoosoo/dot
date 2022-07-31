@@ -90,6 +90,8 @@ p{
 #dot1{
     /* margin-right:17px;
     margin-left: 5px; */
+
+
     margin-right:17px;
     margin-left: 5px;
 
@@ -97,6 +99,8 @@ p{
 #dot5{
     /* margin-left:56px;
     margin-top: -7px; */
+
+
     margin-left:50px;
     margin-top: -7px;
 }
@@ -110,31 +114,38 @@ p{
 #dot3{
     margin: 0px 30px 0px 20px;
 }
+#num3{
+    margin-right: 15px;
+}
+
 #num1{
     /* margin-right: 45px; */
+
     margin-right: 12px;
     margin-top: 10px;
 
 }
-#num3{
-    margin-right: 15px;
-}
 #num5{
     /* margin-left: 45px;
     margin-top: -7px; */
+
     margin-left: 12px;
 
 }
 #num4{
     margin-top: -7px;
 }
+/* .grid{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+} */
 
 @media (min-width:1450px) {
     #dot1{
         margin-left: 10px;
     }
     .dots{
-        margin-top: 108px;
+        margin-top: 113px;
     }
 }
 @media (min-width:2000px) {
@@ -142,7 +153,7 @@ p{
         margin-left: 15px;
     }
     .dots{
-        margin-top: 100px;
+        margin-top: 110px;
     }
 
 }
