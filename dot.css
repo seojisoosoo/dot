@@ -195,7 +195,7 @@ canvas{
 } */
 
 /* 1440px */
-@media (min-width:1550px) {
+@media (min-width:1520px) {
     #dot1{
         margin-left: 10px;
     }
