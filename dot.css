@@ -133,12 +133,17 @@ p{
     #dot1{
         margin-left: 10px;
     }
-    
+    .dots{
+        margin-top: 108px;
+    }
 }
 @media (min-width:2000px) {
     #dot1{
         margin-left: 15px;
     }
-    
+    .dots{
+        margin-top: 100px;
+    }
+
 }
 /* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100') */
