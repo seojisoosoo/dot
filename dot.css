@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,700');
+/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,700'); */
 body{
     background-color: #ECE7E1;
-    font-family: 'Gothic+A1';
+    
+    font-family:'Malgun Gothic';
+    font-size:12pt;
 }
 p{
     margin: 0px;
@@ -147,6 +149,13 @@ p{
     .dots{
         margin-top: 113px;
     }
+    body{
+        background-color: #ECE7E1;
+        
+        font-family:'Malgun Gothic';
+        font-size:11pt;
+    }
+    
 }
 @media (min-width:2000px) {
     #dot1{
