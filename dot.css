@@ -12,8 +12,8 @@ p{
     border-radius: 100%;
     /* width:1vh;
     height: 1vh; */
-    width:7px;
-    height: 7px;
+    width:10px;
+    height: 10px;
 
     position: relative; 
     z-index: 2;
@@ -46,7 +46,7 @@ p{
     align-items: center;
     margin-left: -2.6vh;
     /* margin-top: 16vh; */
-    margin-top: 122px;
+    margin-top: 116px;
 
     flex-direction: column;
     width:15vh;
