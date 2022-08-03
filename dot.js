@@ -7,12 +7,20 @@ const dot2 = document.querySelector("#dot2");
 const dot3 = document.querySelector("#dot3");
 const dot4 = document.querySelector("#dot4");
 const dot5 = document.querySelector("#dot5");
+const card = document.querySelector(".card");
+const input = document.querySelector(".input");
 
+function save() {
+  card.style.display = "flex";
+  input.style.display = "none";
+}
 function click1() {
   const currentColor = dot1.style.backgroundColor;
   let newColor;
   if (currentColor != "black") {
     newColor = "black";
+    card.style.display = "none";
+    input.style.display = "block";
   } else {
     //다음페이지 나오게 -> html에 연결해두고 display:none해놨다가 display:block으로 변경하자
   }
