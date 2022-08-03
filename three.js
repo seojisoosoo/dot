@@ -30,7 +30,7 @@ function click2() {
     const canvas = document.querySelector("#onetwo");
     var context = canvas.getContext("2d");
     context.strokeStyle = "black";
-    context.lineWidth = 3;
+    context.lineWidth = 4;
 
     context.beginPath();
     context.moveTo(0, 70);
@@ -55,11 +55,11 @@ function click3() {
     const canvas = document.querySelector("#twothree");
     var context = canvas.getContext("2d");
     context.strokeStyle = "black";
-    context.lineWidth = 3;
+    context.lineWidth = 4;
 
     context.beginPath();
     context.moveTo(0, 0);
-    context.lineTo(20, 80);
+    context.lineTo(37, 120);
     context.stroke();
   } else {
     //다음페이지 나오게 -> html에 연결해두고 display:none해놨다가 display:block으로 변경하자

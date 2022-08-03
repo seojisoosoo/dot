@@ -27,18 +27,19 @@ canvas{
     justify-content: center;
 
     width: 80px;
+    margin-top: 68px;
+    margin-left: 22px;
 }
 
 .c12{
     width: 105px;
     height: 70px;
-    margin-top: 70px;
-    margin-left: 70px
+    margin-left: 60px
 }
 
 .c23{
-    width: 20px;
-    height: 80px;
+    width: 37px;
+    height: 120px;
 }
 
 
