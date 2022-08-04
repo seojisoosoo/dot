@@ -168,10 +168,10 @@ margin-left: 1px;
     } 
 }
 
-/* 1400px 이하
-@media (max-width:1400px) {
-   #dot4{
-    margin-top: -1px;
+/* 1350px 이하 */
+@media (max-width:1350px) {
+   #canvases{
+    margin-left: -10px;
    }
   
-} */
+}
